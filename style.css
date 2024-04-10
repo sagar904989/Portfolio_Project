@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_bar{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid white;
+
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    position: fixed; 
+    width: 100%;
+    background-image: linear-gradient(to right,#069257,#4beba8,#58dba4,#069257);
+    height: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:larger;   
+    z-index: 4;
+}
+
+
+.icons{
+    color: black;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-right: 10px;
+    
+}
+
+.icons:hover{
+
+    /* border: 2px solid black; */
+    border-radius: 30px;
+    background-color: #0d412b;
+    color: whitesmoke;
+    transition-duration: 1s;
+
+}
+
+
+.name{
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    /* text-decoration: underline; */
+    margin-left: 40px;
+}
+
+.name:hover{
+   text-decoration: underline;
+   color: black;
+   text-shadow: 1px 1px 3px #04100b;
+   letter-spacing: 2px;
+   word-spacing: 6px;
+   transition-duration: 1s;
+   font-family: Algerian;
+}
+/* .name1{
+    
+} */
+
+
+#home{
+    margin-top: 50px;
+}
+
+.Profile1{
+    margin-top: 150px;
+    text-align: left;
+    margin-left: 50px;
+    background-image: url();
+    
+}
+
+#hello{
+
+    font-family: Bodoni MT Black;
+    font-size: 40px;
+    font-weight: 1000;
+    font: bold;
+    color: #025e38;
+}
+
+.My_Name{
+
+    font-family: Bodoni MT Black;
+    font-size: 40px;
+    font-weight: 1000;
+    font: bold;
+    color: #025e38;
+    word-spacing: 5px;
+}
+
+.SAGAR{
+    
+    font-family: Bodoni MT Black;
+    font-size: 40px;
+    font-weight: 1000;
+    font: bold;
+    color: #025e38;
+    word-spacing: 5px;
+}
+
+.I_AM{
+
+    
+    font-family: Bodoni MT Black;
+    font-size: 40px;
+    font-weight: 1000;
+    font: bold;
+    color: #025e38;
+    word-spacing: 5px;
+}
+
+.Full_Stack{
+
+    font-family: Bodoni MT Black;
+    font-size: 40px;
+    font-weight: 1000;
+    font: bold;
+    color: #025e38;
+    word-spacing: 5px;
+}
+
+.home{
+    background-image: url("https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif");
+    
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: 95% 4%;
+    background-size: 30%;
+    
+}
+
+.rsmbtn {
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
+    background-color: #025e38;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    transition-duration: 1s;
+    
+    /* text-decoration: none; */
+}
+.rsmbtn :hover{
+    background-color: white;
+    color: #025e38;
+    border: 2px solid #025e38;
+    box-shadow: 0px 0px 10px #025e38;
+    transform: scale(1.1);
+    text-decoration: none;
+    
+}
+
+#RESUME :hover{
+    text-decoration: none; 
+    background-color: white;
+    color: #025e38;
+    border: 2px solid #025e38;
+    box-shadow: 0px 0px 10px #025e38;
+    transform: scale(1.1);
+    text-decoration: none;  
+}
+.rsmbtn a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #025e38 ;
+    border: 2px solid #025e38;
+    box-shadow: 0px 0px 10px #025e38;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+
+
+.about_sect {
+  background-color: rgb(250, 238, 238);
+  border: none;
+}
+.my_image {
+  height: 300px;
+  transition-duration: 1s;
+  border-radius: 40px;
+}
+.my_image:hover {
+  transform: scale(1.3);
+  border-radius: 125px;
+  box-shadow: 0px 0px 10px black;
+}
+.section_heading {
+  color: #025e38;
+  font-family: Elephant;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+  margin-bottom: 40px;
+}
+.cobj {
+  font-size: 25px;
+  text-align: justify;
+  margin-top: 40px;
+  text-indent: 20%;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: grey;
+  padding-left: 30px;
+}
+.skills_sect{
+  height: 600px;
+  margin-top: 20px;
+  
+  
+}
+.skill_heading{
+  color: #003140;
+  font-family: Arial Black;
+  font-size: 30px;
+  font-variant: small-caps;
+  padding: 10px;
+  
+}
+.skill_set p{
+  font-size: 20px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bolder;
+  padding: 30px 20px;
+}
+.skill_set{
+  /* background-color: #84aee3; */
+  height: 90%;
+  width: 90%;
+  border-radius: 50px;
+  border: 2px solid grey;
+  transition-duration: 1s;
+}
+.skill_set:hover{
+  box-shadow: 0px 0px 10px grey;
+  transform: scale(1.06);
+  background-color: aliceblue;
+}
+
+
+.card-img-top{
+  height: 200px;
+  width: 220px;
+  margin-left: 130px;
+  margin-top: 20px;
+  
+}
+
+
+#Projects{
+  background-color: rgb(250, 238, 238);
+}
+
+#section_projects{
+  margin-top: 15px;
+  height: 800x;
+  
+  /* position: absolute; */
+  /* position: static; */
+}
+
+.card-deck{
+  margin-right: 20px;
+  margin-left: 20px;
+  /* position: sticky; */
+}
+
+/* .card{
+  position:initial;
+} */
+
+#Projects{
+  height: 525px;
+  
+}
+
+#footer{
+  background-color: #0e8553;
+  width: 100%;
+  height: 70px;
+ 
+}
+
+#foot{
+  text-align: center;
+  padding: 25px;
+  color: black;
+  font-weight: bolder;
+}
+
+
+#Contact{
+  height: 500px;
+}
+
+
+.user{
+  background-color: #0e8553;
+  color: black;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.user:hover{
+
+  border: 2px solid black;
+  border-radius: 100px;
+  background-color: black;
+  color: white;
+  transition-duration: 2s;
+
+}
+
+
+td{
+  font-weight: bold;
+  padding: 1px ;
+}
+
+.reset{
+  padding: 3px;
+  border-radius: 10px;
+  font-size: large;
+  
+}
+
+
+
+.reset:hover{
+  border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    transition-duration: 2s;
+}
+
+/* section{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to{background-color: yellow;}
+  
+} */
